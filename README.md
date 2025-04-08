@@ -21,6 +21,7 @@ I’m actively working on this improvement.
 
 https://github.com/user-attachments/assets/b58b066a-2c41-477c-bfc3-ea0d24e2e1ba
 
+A better quality video demo has been uploaded in the repository.
 
 #### Components:
 Arduino Uno, 10 buttons (for notes and play/pause), SD card module, 1602 LCD, 8x8 LED matrix, Sound sensor module, Speaker, multiplexer, 2 breadboards, wires, resistors
