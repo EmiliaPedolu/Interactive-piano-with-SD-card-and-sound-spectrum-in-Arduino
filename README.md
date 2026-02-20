@@ -11,6 +11,7 @@ This project is an interactive Arduino-based piano that plays musical notes and 
 \- Sound Visualizer: The LED matrix shows the audio frequency spectrum based on the sound sensor input (currently under refinement).
 
 #### Current Status:
+  Update: The project is finished but I didn't have time to update the documentation. A video with the working project is availabe on LinkedIn at the section "Projects". 
   &nbsp;&nbsp;&nbsp;&nbsp;The base functions of the project, including the Piano Mode and Music Player, are fully operational. In Piano Mode, the buttons correctly play notes, and the music player can play/pause songs stored on the SD card.
   
   &nbsp;&nbsp;&nbsp;&nbsp; However, the LED matrix isn’t yet displaying frequencies correctly because it’s connected to the wrong pins (2, 7, 8) instead of the required SPI pins (10–13), which are already used by the SD card. This causes communication conflicts. The fix involves assigning unique Chip Select (CS) pins to each device to avoid SPI communication interference. 
